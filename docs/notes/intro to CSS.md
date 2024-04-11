@@ -2,7 +2,7 @@
 id: 7qfafap6x6ac8y4q1rjo05g
 title: intro to CSS
 desc: ''
-updated: 1712759668880
+updated: 1712838871808
 created: 1712755462665
 ---
 ## Basic Syntax
@@ -225,3 +225,40 @@ img {
 
 - Instead of a separate CSS file, the CSS is added directly into the HTML file inside a pair of style tags within the head element
   - No link element is needed because there is no file to link to
+
+```html
+<head>
+  <style>
+    div {
+      color: white;
+      background-color: black;
+    }
+
+    p {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  ...
+</body>
+```
+
+- Useful for adding styles to a single page of a website
+- Can inflate size of HTML drastically
+
+#### Inline CSS
+
+- Styles applied directly to HTML elements
+- Strongly discouraged
+  - quickly gets very messy
+  - requires a lot of repetition if applying the same style to several elements
+    - bloat
+    - very difficult to change, troubleshoot or update
+  - overrides the other two methods - unexpected results
+
+```html
+<body>
+  <div style="color: white; background-color: black;">...</div>
+</body>
+```
