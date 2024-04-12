@@ -2,7 +2,7 @@
 id: hx38ccfnkh5riqkl0yh5q9t
 title: CSS Q&A
 desc: ''
-updated: 1712935267281
+updated: 1712935356828
 created: 1712759979012
 ---
 - **What is the syntax for class and ID selectors?**
