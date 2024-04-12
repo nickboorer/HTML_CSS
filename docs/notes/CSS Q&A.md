@@ -1,8 +1,8 @@
 ---
 id: hx38ccfnkh5riqkl0yh5q9t
-title: intro to CSS Q&A
+title: CSS Q&A
 desc: ''
-updated: 1712843796418
+updated: 1712935267281
 created: 1712759979012
 ---
 - **What is the syntax for class and ID selectors?**
@@ -33,3 +33,7 @@ created: 1712759979012
     - not considered good practice:
       - it overrides both of the other two methods if they also exist
       - it is very difficult to maintain and update accurately
+
+- **Between a rule that uses one class selector and one that uses three type selectors, which has higher specificity**
+  - The rule with the class selector has higher specificity
+    - a class selector always beats any number of type selectors
