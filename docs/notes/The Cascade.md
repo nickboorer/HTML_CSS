@@ -2,7 +2,7 @@
 id: x1snd235gwi9ispqu08u0og
 title: The Cascade
 desc: ''
-updated: 1712934130308
+updated: 1712934226899
 created: 1712932100370
 ---
 ## The CSS Cascade
@@ -146,7 +146,7 @@ h1 {
 - Exception when an element is directly targeted
   - always beats inheritance
     - e.g. here, parent has higher specificity as it is an ID selector
-        - but child (a class selector) will still apply the blue font colour applied because it is directly targeting the child element
+      - but child (a class selector) will still apply the blue font colour applied because it is directly targeting the child element
 
 ```html
 <div id="parent">
@@ -167,8 +167,8 @@ h1 {
 ### Rule Order
 
 - If all else is equal and two selectors are completely tied and there are still conflicting rules:
-    - the rule defined last will take precedence
-        - here the warning rule will be applied if there is a conflict as it is defined last
+  - the rule defined last will take precedence
+    - here the warning rule will be applied if there is a conflict as it is defined last
 
 ```css
 .alert {
